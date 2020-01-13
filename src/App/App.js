@@ -3,6 +3,7 @@ import React from 'react';
 import { toast } from 'react-toastify';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import LogIn from './Pages/login.page';
+import home from './Pages/home';
 
 toast.configure();
 class App extends React.Component {
@@ -11,9 +12,7 @@ class App extends React.Component {
 			<Router>
 				<Switch>
 					<Route exact path='/login' component={LogIn} />
-					<Route path='/'>
-						<p> Welcome to Quick Credit </p>
-					</Route>
+					<Route path='/' component={home}></Route>
 				</Switch>
 			</Router>
 		);
