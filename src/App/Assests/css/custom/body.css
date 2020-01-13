@@ -1,0 +1,271 @@
+body{
+	font-family: georgia;
+	font-size: 18px;
+	padding: 0;
+	margin: 0;
+	height: 100%;
+	background-color: #f2f2f7;
+	opacity: 0.8;
+
+}
+
+#main{
+	height: auto;	
+	min-height: 800px;
+}
+
+#log1{
+	border-radius: 100%;
+	width: 300px;
+	height: 300px;
+	background-color: #3267AD;
+	box-shadow:0px 3px 4px 2px black;
+}
+#log1.log1forms{
+margin: 145px auto auto 22%;
+}
+#log1.log1formsSign{
+margin: 250px auto auto 22%;
+}
+#log1.log1views{
+margin: 145px 0 0 0%;
+}
+#log1.log1viewsHist{
+margin: 145px 0 0 0%;
+}
+
+
+#log2{
+	float: left;
+	margin-left: 30px;
+	margin-top: 30px;
+	border-radius: 100%;
+	width: 80%;
+	height:80%;
+	background-color: #f2f2f7;
+	box-shadow:0px 3px 4px 2px black;
+	animation:anim 1s;
+}
+#log2:hover{
+	background-color: #ddd;
+}
+#log3{
+	float: left;
+	margin-left: 140px;
+	margin-top: 180px;
+	border-radius: 0%;
+	width: 35px;
+	height: 150px;
+	background-color: #3267AD;
+	border-bottom-left-radius: 80%;
+	border-top-right-radius: 80%;
+	transform:rotate(-30deg);
+}
+
+
+
+#allforms{
+	width: 460px;
+	min-height: 480px;
+	padding-left: 100px;
+	padding-bottom: 30px;
+	border-bottom-left-radius: 50%;
+	border-top-left-radius: 50%;
+	 border-left:30px solid #3267AD;
+	border-bottom-right-radius: 15px;
+	border-top-right-radius: 15px;
+	box-shadow:0px 1px 2px -3px black;
+	
+}
+#allforms.forms{
+margin: -120px auto auto 170px;
+}
+#allforms.formsSign{
+margin: -220px auto auto 170px;
+}
+#allforms.views{
+	min-width: 1000px;
+	border-bottom-left-radius: 45%;
+	border-top-left-radius: 45%;
+	margin: -150px auto auto 170px;
+}
+#allforms.viewsHist{
+	min-width:970px;
+margin: -170px auto auto 200px;
+
+}
+form{
+	width: 100%;
+
+}
+.views form{
+	width: 100%;
+	min-height: 500px;
+}
+form h1{
+	text-align: center;
+	width: 96%;
+	padding: 10px;
+	padding-top: 50px;
+	color: #3267AD;
+
+	height: 60px;
+	text-transform: uppercase;
+	border-radius: 15px;
+	border-top-left-radius: 50%;
+	border-top-right-radius: 50%;
+}
+
+.views form h1{
+	width: 980px;
+	margin-top: 0px;
+}
+#allforms.viewsHist h1{
+	width: 950px;
+}
+form #homepage h1{
+	background-color: white;
+}
+input,#feedback,select,button{
+	float: center;
+	padding-left: 20px;
+	height: 50px;
+	width: 96%;
+	border:0px;
+	text-align: left;
+	border-radius: 50px;
+	font-size: 18px;
+	margin-left: 20px;
+	box-shadow:0px 1px 3px 0px black;
+
+}
+.tenorval{
+	max-height: 50px;
+}
+#feedback{
+	display: none;
+	padding-left: 0px;
+}
+button.allbutt{
+	
+	margin-top: 10px;
+	text-align: center;
+	color: white;
+	background-color: #3267AD;
+	text-transform: uppercase;
+	transition:transform 100ms ease-in;
+}
+
+
+button.allbutt:hover{
+	cursor: pointer;	
+}
+button.allbutt:active{
+	transform:scale(0.85);
+	cursor: wait;
+}
+#logobutton1,#logobutton2,#logobutton3{
+	width: 30%;
+	height: 30px;
+	
+	
+}
+#logobutton1{
+	margin-top: 50px;
+}
+.viewsHist #logobutton1{
+	margin-left: 35%;
+}
+.homep{
+	
+	text-align: justify;
+	margin-top: 50px;
+	line-height: 27px;
+	letter-spacing: 1px;
+	
+
+}
+.homea{
+	font-weight: 1000;
+	font-size: 30px;
+}
+form p{
+	
+	height: 20px;
+	text-align: left;
+	padding-left: 5px;
+	margin-bottom: 4px;
+	margin-left: 25px;
+	
+}
+section{
+	 box-shadow:0px 18px 16px -16px black;
+}
+table{
+	margin-left: 0px;
+	margin-top: 30px;
+	padding: 0px;
+	overflow: hidden;
+	opacity: none; 
+
+}
+th{
+	width: 250px;
+	height: 30px;
+	background-color:#3267AD;
+	color: white;
+	overflow: hidden;
+    border-spacing:solid,1px,white;
+    border-top-left-radius: 60%;
+    border-top-right-radius: 60%;
+}
+tr{
+	background-color: silver;
+}
+.tablebutton{
+	background-color: green;;
+	height: 20px;
+	font-size: 16px;
+	padding: 2px;
+	width: 70px;
+	color:white;
+	text-align: center;
+	cursor: wait;
+	margin-left: 3px;
+
+}
+.tablebutton#reject{
+	background-color: red;
+	margin-left: 80px;
+	margin-top: -20px;
+}
+footer{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	margin-top: 10px;
+	background:  silver;
+	color: white;
+	height: 60px;
+	width: 100%;
+	text-align: center;
+	max-height: 100px;
+	 box-shadow:0px 2px 4px 3px black;
+}
+@keyframes anim{
+	0% { 
+		box-shadow: 0 0 0 0 #ddd,0 0 0 0 #ddf;
+	}
+	30% { 
+		box-shadow: 0 0 0 30px #ddf,0 0 0 30px #ddf;
+	}
+	70% { 
+		box-shadow: 0 0 0 30px #ddf,0 0 0 30px #ddd;
+	}
+	100% { 
+		box-shadow: 0 0 0 0 #ddd,0 0 0 0px #ddd;
+	}
+	
+}
+
+

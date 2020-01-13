@@ -3,7 +3,7 @@ const initialState = {
 	error: null,
 };
 
-const Loginreducer = (state = initialState, action) => {
+const LoginReducer = (state = initialState, action) => {
 	const { type, payload } = action;
 	switch (type) {
 		case 'LOGIN_SUCCESS':
@@ -23,4 +23,4 @@ const Loginreducer = (state = initialState, action) => {
 	}
 };
 
-export default Loginreducer;
+export default LoginReducer;
