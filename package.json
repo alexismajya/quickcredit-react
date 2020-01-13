@@ -1,7 +1,7 @@
 {
-  "name": "eagle-bn-frontend",
+  "name": "alexis-qc-frontend",
   "version": "1.0.0",
-  "description": "this is a front-end application for Barefoot nomad",
+  "description": "this is a front-end application for quick credit",
   "main": "index.js",
   "jest": {
     "reporters": [
@@ -39,14 +39,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andela/eagle-bn-frontend.git"
+    "url": "git+https://github.com/alexismajya/alexis-qc-frontend.git"
   },
   "author": "Team eagle",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/andela/eagle-bn-frontend/issues"
+    "url": "https://github.com/alexismajya/alexis-qc-frontend/issues"
   },
-  "homepage": "https://github.com/andela/eagle-bn-frontend#readme",
+  "homepage": "https://github.com/alexismajya/alexis-qc-frontend#readme",
   "devDependencies": {
     "@babel/plugin-proposal-class-properties": "^7.7.4",
     "@babel/preset-react": "^7.7.4",
