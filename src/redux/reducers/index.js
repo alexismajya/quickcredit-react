@@ -2,7 +2,7 @@ import { combineReducers } from 'redux';
 import LoginReducer from './loginReducer';
 
 const allReducers = combineReducers({
-	login: LoginReducer,
+	loginRed: LoginReducer,
 });
 
 export default allReducers;

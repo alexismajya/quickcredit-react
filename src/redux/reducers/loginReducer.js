@@ -1,7 +1,26 @@
-const initialState = {};
+const initialState = {
+	message: null,
+	error: null,
+};
 
 const LoginReducer = (state = initialState, action) => {
-	return state;
+	const { type, payload } = action;
+	switch (type) {
+		case 'LOGIN_SUCCESS':
+			return {
+				...state,
+				message: payload,
+				error: null,
+			};
+		case 'LOGIN_FAILURE':
+			return {
+				...state,
+				message: null,
+				error: payload,
+			};
+		default:
+			return state;
+	}
 };
 
 export default LoginReducer;
