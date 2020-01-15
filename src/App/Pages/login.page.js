@@ -41,7 +41,7 @@ export class LogIn extends React.Component {
 
 	render() {
 		const { password, email } = this.state;
-		const { error } = this.props.user;
+		const { alert, message } = this.props.user;
 		return (
 			<div className='d-flex'>
 				{/* <Header /> */}
@@ -52,7 +52,11 @@ export class LogIn extends React.Component {
 							<div id='allforms' class='forms'>
 								<form method='post' onSubmit={this.handleSubmit}>
 									<h1> LOGIN FORM</h1>
-									{error && <p className='alert alert-danger'>{error}</p>}
+									{message && (
+										<div name='response' className={alert}>
+											{message}
+										</div>
+									)}
 									<div className='form-label-group mt-4'>
 										<input
 											type='email'

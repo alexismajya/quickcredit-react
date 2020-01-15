@@ -1,6 +1,7 @@
 const initialState = {
 	message: null,
 	error: null,
+	alert: 'text-primary font-weight-bolder',
 };
 
 const LoginReducer = (state = initialState, action) => {
@@ -9,14 +10,16 @@ const LoginReducer = (state = initialState, action) => {
 		case 'LOGIN_SUCCESS':
 			return {
 				...state,
-				message: payload,
+				message: 'logged successfully',
 				error: null,
+				alert: 'alert alert-primary',
 			};
 		case 'LOGIN_FAILURE':
 			return {
 				...state,
-				message: null,
+				message: 'Invalid email and/or password',
 				error: payload,
+				alert: 'alert alert-warning',
 			};
 		default:
 			return state;
