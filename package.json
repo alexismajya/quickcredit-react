@@ -30,7 +30,8 @@
     }
   },
   "scripts": {
-    "start": "serve -s ./build",
+    "start": "HTTPS=true serve -s ./build",
+    "build": "webpack --mode=production --config webpack.config.prod.js",
     "test": "jest",
     "test:watch": "jest --watchAll",
     "dev": "webpack-dev-server --mode=development --config webpack.config.dev.js --hot",
